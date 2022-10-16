@@ -1,0 +1,33 @@
+#* java -ea ataxx.Main
+# Set up game and check for win.
+
+manual blue
+
+block a2
+block a3
+block a4
+block b2
+block b3
+block b4
+block c2
+block c3
+block c4
+block d2
+block d3
+block d4
+
+a7-b7
+a1-c1
+b7-c7
+c1-b1
+c7-d7
+c1-d1
+d7-f7
+d1-e1
+g1-f1
+b1-a1
+c7-d7
+-
+d7-e7
+#*win+
+dump
